@@ -116,3 +116,11 @@ img {
     border-color: black;
     border-style: solid;
 }
+
+.hyperlink {
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
