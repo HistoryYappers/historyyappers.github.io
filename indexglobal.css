@@ -85,14 +85,34 @@ space {
     height: 60px;
 }
 span {
-    font-size: 30px;
+    font-size: calc(3.5vh);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    text-wrap: balance;
+    text-wrap: pretty;
     display: block;
     margin: auto;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 div {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+ol {
+    font-size: calc(2.7vh);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-wrap: pretty;
+    display: block;
+    margin-left: 35px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+img {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
 }
