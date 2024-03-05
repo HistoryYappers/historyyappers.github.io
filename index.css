@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/20/22/32/businessman-2873115_1280.png);
+    overflow-anchor:auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
+p {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.7px;
+    font-size: 35px;
+}
