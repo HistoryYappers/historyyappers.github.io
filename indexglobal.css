@@ -72,6 +72,8 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 115px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
 }
 p {
     font-size: 30px;

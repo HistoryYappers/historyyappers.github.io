@@ -6,10 +6,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
-h1{
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 1px;
-}
 p {
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.7px;
