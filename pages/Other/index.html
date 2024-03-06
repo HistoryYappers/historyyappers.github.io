@@ -12,6 +12,22 @@
         <a href="/browse" class="link">???</a>
         <a href="/FAQ" class="link">???</a>
         </nav>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                  var currentScrollPos = window.pageYOffset;
+                  const x = document.getElementsByTagName("nav");
+                  if ((prevScrollpos > currentScrollPos)) 
+                  {
+                    x[0].style.top="0px";
+                  } 
+                  else
+                  {
+                    x[0].style.top = "calc(-1 * 100px)";
+                  }
+                  prevScrollpos = currentScrollPos;
+                }
+        </script>
         <main>
         <h1> Y̴̰̫̱̺͙̓̄̆͌́ǒ̷̡̗̄͆̉͗̃̓͊̄͘͝ư̶̢̢̭͖̝̻̪̪̙̻͊̀͗'̷͔͉̜̯̂̎̏͐̇̍̆͝r̵̨̝̗͖͕̱͈̦͍͛̅͊̉̏͂̉̊͗͘͘ẹ̴͇̜̈̅̐̉͗̌̈̍̑ ̷̡̡̤͙̥̹͈̲̰͙̫̳̜̞̌̅͌̏ņ̴̹̹̤͍̞͎̽̇̑͂̄o̴̢̢̦̤̥̠̩̤̰̖̪͒͋̀̅̽t̴̫̝̐̓̀͐͑̾̋͐̊̈́̕͠͠ ̵̘̦̳͓͉͎̜͔̥̥̳̈̉͛̐̌͒͜͝ś̴̹͂͝ų̶͔̟͌͌̔̐̓͂p̴͕͌͊̓̏́͌̐̀͗̓́̑͑p̷̨͙͐̂͌̈̂͛̋̕ò̴̢̱̞͉͎̣̗̘͈̺̞͗̐́̒͑͊̂̑̓̐̓̀̀̚͜ͅs̷̻͉͉͆̿̆̈͒͑̿́̀̽͠e̷̮̦̖̳̝͈̝̓͊͆̉̊̌̚ḑ̸̡̯̥̝̳͒̐͐̊͌͒̄̀̚͝͝ ̵̝̹̼̻͇̩̬͉͎͙̼͇̮̈̃͗͝t̷̙͔͉̲͈͉̅̂̀̌͆̎͊̚ǫ̶̛̛̪̙̟̳̣̮͈͓͈͇̻̘̃͊̓͌͛͐̈́͒͂̏̏ ̵̡̲̹͑̎͒̽́̾̀̌͗̕͝͝b̷̢͖̰̥̯̣̫͖͓̯͇̖̻̈́͌̀͊͋̿͋͑̾̽ȇ̶͍͕̲̭̼̲̙̘͉̐͆̓͠ ̵̢̦̘̜̦̭̳͈͙̗̱̹̫̤̏h̸̙̠͗́̒̽̾̿̈́̂́̕͠ḙ̸̛̱̠͆̏̿r̷̩̥̗̘͙̗̺̹͑̀͂̈́͂͠e̸̜̳͓̣̬͈͎̓̉͗̑̀̆͒͛͋̈́͑͗͝ </h1>
         <space></space>

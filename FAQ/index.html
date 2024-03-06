@@ -13,6 +13,22 @@
         <a href="/browse" class="link">BROWSE</a>
         <a href="/FAQ" class="link">FAQ</a>
         </nav>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                  var currentScrollPos = window.pageYOffset;
+                  const x = document.getElementsByTagName("nav");
+                  if ((prevScrollpos > currentScrollPos)) 
+                  {
+                    x[0].style.top="0px";
+                  } 
+                  else
+                  {
+                    x[0].style.top = "calc(-1 * 100px)";
+                  }
+                  prevScrollpos = currentScrollPos;
+                }
+        </script>
         <main>
             <h1> Frequently Asked Questions </h1>
             <p>
