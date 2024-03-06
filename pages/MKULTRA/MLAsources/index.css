@@ -1,0 +1,28 @@
+p {
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-wrap:wrap;
+}
+.ip {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-wrap: balance;
+    padding: 25px;
+    padding-left: 100px;
+    text-decoration: none;
+    color: black;
+    text-wrap:wrap;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    border-color: black;
+    -webkit-text-stroke-color: black;
+}
